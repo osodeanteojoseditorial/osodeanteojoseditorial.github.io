@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^email/$ 'mailto:email@example.com' [R=302,L]
+RewriteRule ^✉/$ 'mailto:email@example.com' [R=302,L]
