@@ -25,8 +25,7 @@ body {
   display: flex;
   justify-content: space-around;
   width: inherit;
-  border-top:1px dotted var(--txt2);
-  opacity: 85%;
+  border-top:1px solid var(--txt);
 }
 
 .footer-phone {
@@ -37,11 +36,8 @@ body {
   padding-top: 10px;
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
-  opacity: 75%;
   place-self: center;
-  background-color: rgb(165	42	41 / 90%);
-  backdrop-filter: blur(10px);
+  background-color: var(--txt2);
 }
 
 .flex-container {
@@ -223,7 +219,7 @@ screen and (min-width: 1080px) {
   }
 
   header {
-    width: 300px;
+    width: 350px;
     padding: 25px;
     padding-top: 80px;
     float: left;
@@ -336,11 +332,24 @@ screen and (max-width: 1079px) {
     margin-bottom: 50vh;
     border-top: 1px solid var(--txt2);
     pre {
-    text-align: center;  
-    font-weight: bold;
+      text-align: center;  
+      font-weight: bold;
     }
   }
 
+
+a {
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  text-align: center;
+  padding:0px;
+  border: 1px solid var(--bg);
+}
+
+a img {
+  height: 40px;
+}
 
   .warning {
     display: none;
