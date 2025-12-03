@@ -10,6 +10,7 @@ body {
   color: var(--txt);
 }
 
+
 .warning {
   background-color: var(--bg);
   color: var(--txt);
@@ -25,7 +26,7 @@ body {
   display: flex;
   justify-content: space-around;
   width: inherit;
-  border-top:1px solid var(--txt);
+  border-top: 1px solid var(--txt);
 }
 
 .footer-phone {
@@ -212,18 +213,32 @@ header ul a:active {
 @media print,
 screen and (min-width: 1080px) {
 
+  body {
+	  background-image: radial-gradient(#FFAD13 1px, transparent 1px), radial-gradient(#e26444 1px, transparent 1px);
+	  background-size: 10px 10px;
+	  background-position: 0 0, 5px 5px;
+	    background-color: #b7ab9a;
+  }
+
+
   .wrapper {
     width: 1080px;
     margin: 0 auto;
-    height: auto;
+    margin-top: -10px;  
+    height: auto; 
+    border-right: 2px solid var(--txt2);      
   }
 
   header {
-    width: 350px;
+    background-color: var(--bg);
+    height: 100vh;    
+    width: 321px;
     padding: 25px;
+    padding-left: 50px;
     padding-top: 80px;
     float: left;
     position: fixed;
+    border: 1px solid var(--txt2);    
   }
 
   .footer-phone {
@@ -239,12 +254,15 @@ screen and (min-width: 1080px) {
   }
 
   section {
+    background-color: var(--bg);
     width: 550px;
     padding-left: 80px;
     padding-right: 50px;
     padding-bottom: 60px;
+    margin-top:-10px;
     float: right;
-    border-left: 2px solid var(--txt2);
+    border-left: 2px solid var(--txt2);    
+    border-right: 1px solid var(--txt2);
   }
 
   h1 {
@@ -265,6 +283,7 @@ screen and (min-width: 1080px) {
 @media print,
 screen and (max-width: 1079px) {
   body {
+    background-color: var(--bg);    
     padding: 10px;
   }
 
@@ -273,6 +292,7 @@ screen and (max-width: 1079px) {
   }
 
   header {
+    background-color: var(--bg);     
     padding: 0;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--txt2);
@@ -290,16 +310,6 @@ screen and (max-width: 1079px) {
     font-size: 0.85em;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-
-  .mail {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
-    font-weight: 100;
-    color: var(--bg);
-    border: 1px solid var(--bg);
-    width: 45px;
-    height: 45px;
   }
 
   .index {
@@ -332,24 +342,22 @@ screen and (max-width: 1079px) {
     margin-bottom: 50vh;
     border-top: 1px solid var(--txt2);
     pre {
-      text-align: center;  
-      font-weight: bold;
+    text-align: center;  
+    font-weight: bold;
     }
   }
 
-
-a {
-  width: 50px;
-  height: 50px;
-  align-content: center;
-  text-align: center;
-  padding:0px;
-  border: 1px solid var(--bg);
-}
-
-a img {
-  height: 40px;
-}
+  a {
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid var(--bg);
+    img {
+    height: 40px;
+    }
+  }
 
   .warning {
     display: none;
@@ -361,7 +369,7 @@ a img {
 
 @media print,
 screen and (max-width: 359px) {
-  section {
+  section {   
     display: none;
   }
 

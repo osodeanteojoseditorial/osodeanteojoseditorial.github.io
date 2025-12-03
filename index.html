@@ -6,6 +6,7 @@
   <title>Oso de Anteojos Editorial | Partituras para charango</title>
   <link rel="stylesheet" href="stylesheets/styles.css">
   <meta name="viewport" content="width=device-width">
+  <script src="javascripts/link-conversion.js" defer></script>
 </head>
 
 <body>
@@ -13,30 +14,30 @@
     <header>
       <div class="flex-container">
         <img id="logo" src="images/logo.png">
-        <h1>Oso de<br>Anteojos</br>Editorial</h1>
+        <h1>Oso de<br>Anteojos<br>Editorial</h1>
       </div>
-      <div class ="index-web">
-      <ul class="collapse">
+
+      <div class="index-web">
+      <ul class="collapse"><div class="toggle">
         Cavour, Ernesto
-        <ul>
+        </div><ul>
           <li><a href="#ODA005">De las montañas a la selva</a></li>
           <li><a href="#ODA004">Obras para charango, Vol. 1</a></li>
           <li><a href="#ODA003">Paisajes de Chijini</a></li>
-        </ul>
+        </ul><div class="toggle">
         Centellas, William Ernesto
-        <ul>
+        </div><ul>
           <li><a href="#ODA001">Obras para charango, Vol. 1</a></li>
           <li><a href="#ODA002">Obras para charango, Vol. 2</a></li>
-        </ul>
+        </ul><div class="toggle">
         Coca, Alfredo
-        <ul>
+        </div><ul>
           <li><a href="#ODA006">Obras para charango, Vol. 1</a>
-        </ul>
-      </div>
+        </li></ul>
+      </ul></div>
     </header>
 
-    <section>
-
+<section>
         <div class="tright">
           <pre id="ODA006">10/10/2025<br><b>ODA006</b></pre>
         </div>
@@ -105,48 +106,39 @@
       </p>
       <button class="button" role="button">Descarga</button><br>
 
-      <div class ="index-phone" id ="index">
+      <div class="index-phone" id="index">
       <pre>Índice</pre><br>
-      <ul class="collapse">
+      <ul class="collapse"><div class="toggle">
         Cavour, Ernesto
-        <ul>
+        </div><ul>
           <li><a href="#ODA005">De las montañas a la selva</a></li>
           <li><a href="#ODA004">Obras para charango, Vol. 1</a></li>
           <li><a href="#ODA003">Paisajes de Chijini</a></li>
-        </ul>
+        </ul><div class="toggle">
         Centellas, William Ernesto
-        <ul>
+        </div><ul>
           <li><a href="#ODA001">Obras para charango, Vol. 1</a></li>
           <li><a href="#ODA002">Obras para charango, Vol. 2</a></li>
-        </ul>
+        </ul><div class="toggle">
         Coca, Alfredo
-        <ul>
+        </div><ul>
           <li><a href="#ODA006">Obras para charango, Vol. 1</a>
-        </ul>
-      </div>
-
-      <footer class="footer-web">
-        <!-- <a href="mailto:contacto@odaeditorial.com.ar" title="Contacto"> -->
-        <a rel="nofollow, noindex" href="email/">Contacto</a>
-        </a>
-        <a href="#top">
-        Volver al inicio
-        </a>
-      </footer>    
+        </li></ul>
+      </ul></div>
     </section>
 
-      <footer class="footer-phone">
-        <a href="#top">
-          <img src="images/icons/hand.png">
-        </a>      
-        <a rel="nofollow, noindex" href="email/" class="mail">
-          <img src="images/icons/mail.svg">          
-        </a>          
-        <!-- <a href="mailto:contacto@odaeditorial.com.ar" class="mail">✉</a>        -->
-        <a href="#index" class="index">
-          <img src="images/icons/bookmark.png">    
-        </a>  
-        </footer>        
+    <section>
+      <footer class="footer-web">
+        <a id="link-conversion" rel="nofollow, noindex" href="enviar-correo/">Contacto</a>
+        <a href="#top">Volver al inicio</a>
+      </footer>
+    </section>
+
+    <footer class="footer-phone">
+      <a href="#top"><img src="images/icons/hand.png"></a>
+      <a id="link-conversion-mobile" rel="nofollow, noindex" href="enviar-correo/"><img src="images/icons/mail.png"></a>
+      <a href="#index" class="index"><img src="images/icons/bookmark.png"></a>
+    </footer>
   </div>
 
   <div class="warning">
