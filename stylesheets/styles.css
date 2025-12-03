@@ -97,7 +97,7 @@ h1 {
 
 h2 {
   font-family: Georgia;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: 200;
   font-style: normal;
   margin: 0;
@@ -105,7 +105,7 @@ h2 {
 
 h3 {
   font-family: Georgia;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 200;
   font-style: normal;
   margin: 0;
@@ -113,7 +113,7 @@ h3 {
 
 p {
   font-family: Georgia;
-  font-size: 1.25em;
+  font-size: 1.10em;
   font-style: normal;
   line-height: 200%;
   margin-bottom: 30px;
@@ -121,7 +121,7 @@ p {
 
 pre {
   font-family: Inconsolata, Consolas, Monaco, Courier, monospace;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 100;
   margin-top: 40px;
   margin-bottom: 0;
@@ -132,7 +132,7 @@ ul {
   display: block;
   padding-inline-start: 0px;
   font-family: Verdana;
-  font-size: 1em;
+  font-size: 0.85em;
   line-height: 2.5em;
 }
 
